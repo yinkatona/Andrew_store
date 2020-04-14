@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coffee Brands</title>
+  <link rel="stylesheet" href="Styles/Layout.css" type="text/css">
+  <script src="scripts/dragAndDrop.js"></script>
+
+</head>
+<body>
+  <header>
+    <div>
+        <div>
+            <a class="headerlogo" href="index.html">
+                <img src="images/logo.png" />
+            </a>
+            <span id="headername">Andrew's Coffee Store</span>
+            <input type="search" class="searchbox" placeholder="Search our store" />
+        <nav class="backgroundgradient">
+          <ul>
+            <li><a class="navlink" href="index.html">Home</a></li>
+            <li><a class="navlink" href="blog.html">Blog</a></li>
+            <li><a class="navlink" href="coffeebrands.html">Our Products</a></li>
+            <li><a class="navlink" href="accessories.html">Accessories</a></li>
+            <li><a class="navlink" href="gift.html">Gifts</a></li>
+            <li><a class="navlink" href="findus.html">Find us</a></li>
+            <li><a class="navlink" href="checkout">checkout</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="welcomeimage">
+        <img src="images/coffeeheader.old.jpg">
+      </div>
+      <div id="coffeeofthemonth">
+          <img src="images/cotm.jpg" />
+      </div>
+
+      <div id="shoppingcart">
+        <header class="blockheader"><span>Shopping Cart</span></header>
+        <ul></ul>
+      </div>
+     
+  </header>
+  <section class="allcoffee">
+    <header class="blockheader">
+        <span>Royal Expresso</span>
+    </header>
+    <article class="productarticlewide" id="coffee-1" data-price="10.00">
+      <img id="coffee1" class="productarticlewidethumbnail" src="images/coffee/coffee1.jpg"/>
+      <div class="productarticlewidecontent">
+        <header>
+          <span class="productarticlewidename">Coffee 1</span>
+        </header>
+        <p class="productarticlewidedescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid cum culpa consectetur molestiae pariatur quos quis, voluptas atque assumenda unde saepe placeat sequi laudantium eveniet sed consequatur libero alias eum!</p>
+        <p class="productarticlewideprice">$10</p>
+      </div>
+    </article>
+    <article class="productarticlewide" id="coffee-2" data-price="15.00">
+        <img id="coffee-2" class="productarticlewidethumbnail" src="images/coffee/coffee1.jpg">
+        <div class="productarticlewidecontent">
+            <header>
+              <span class="productarticlewidename">Coffee 2</span>
+            </header>
+            <p class="productarticlewidedescription">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolorem odit iste commodi magnam corrupti reprehenderit facere voluptate, libero non! Cupiditate doloribus officiis accusamus id ex maiores deleniti saepe alias!
+            </p>
+            <p class="productarticlewideprice">$10</p>
+          </div>
+    </article>
+    <article class="productarticlewide" id="coffee-2" data-price="15.00">
+        <img id="coffee-2" class="productarticlewidethumbnail" src="images/coffee/coffee1.jpg">
+        <div class="productarticlewidecontent">
+            <header>
+              <span class="productarticlewidename">Coffee 3</span>
+            </header>
+            <p class="productarticlewidedescription">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolorem odit iste commodi magnam corrupti reprehenderit facere voluptate, libero non! Cupiditate doloribus officiis accusamus id ex maiores deleniti saepe alias!
+            </p>
+            <p class="productarticlewideprice">$10</p>
+          </div>
+    </article>
+    <article class="productarticlewide" id="coffee-2" data-price="15.00">
+        <img id="coffee-2" class="productarticlewidethumbnail" src="images/coffee/coffee1.jpg">
+        <div class="productarticlewidecontent">
+            <header>
+              <span class="productarticlewidename">Coffee 4</span>
+            </header>
+            <p class="productarticlewidedescription">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolorem odit iste commodi magnam corrupti reprehenderit facere voluptate, libero non! Cupiditate doloribus officiis accusamus id ex maiores deleniti saepe alias!
+            </p>
+            <p class="productarticlewideprice">$10</p>
+          </div>
+    </article>
+    <article class="productarticlewide" id="coffee-2" data-price="15.00">
+        <img id="coffee-2" class="productarticlewidethumbnail" src="images/coffee/coffee1.jpg">
+        <div class="productarticlewidecontent">
+            <header>
+              <span class="productarticlewidename">Coffee 5</span>
+            </header>
+            <p class="productarticlewidedescription">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolorem odit iste commodi magnam corrupti reprehenderit facere voluptate, libero non! Cupiditate doloribus officiis accusamus id ex maiores deleniti saepe alias!
+            </p>
+            <p class="productarticlewideprice">$10</p>
+          </div>
+    </article>
+  </section>
+  
+
+  <script>
+  document.addEventListener("DOMContentLoaded", addDandDHandlers, false);
+  </Script>
+
+<video width="320" height="240" class="coffeevideoplayer" id="videoplayer" poster="images/logo.png" controls>
+<source src="video/movie.mp4" type="video/mp4" codecs="avc1.42E01E, mp4.40.2">
+  <source src="video/movie.ogg" type="video/ogg" codecs="theora, vorbis">
+    Sadly your browser does not support this video..
+</video>
+</body>
+</html>
